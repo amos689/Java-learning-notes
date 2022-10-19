@@ -9,6 +9,12 @@ package _31Exception;
 public class _01ExceptionTest {
     public static void main(String[] args) {
         /*
+            程序执行10 / 0发生了ArithmeticException异常
+            底层new了一个ArithmeticException异常对象, 然后向上抛出
+            抛给了main方法, main方法没有异常处理机制, 将异常抛给了JVM
+            JVM终止了程序的执行
+         */
+        /*
         我观察到异常信息, 就会修改, 让程序更加健壮
         int a = 10;
         int b = 0;
