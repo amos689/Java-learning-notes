@@ -2,7 +2,9 @@ package _30Enum;
 
 /*
     这个案例没有使用java中的枚举类型, 分析以下程序, 在设计方面有什么缺陷
-
+    既然最后只有成功和失败, 那么最好使用boolean类型
+    我们想要追求的是: 所有的错误尽量让编译器找出来, 越早发现越好
+    如果以后的执行结果可能包括多种情况, 但是每个都是可以数清楚的, 那么就最好使用枚举类型
  */
 public class _01EnumTest {
     public static void main(String[] args) {
