@@ -2,7 +2,7 @@ package _11This;
 /*
     this可以使用在哪里
         1.可以使用在实例方法中, 代表当前对象[this.]
-        2.可以使用在构造方法中, 通过当前的构造方法调用其他方法[this(实参)](只能出现在构造函数第一行)
+        2.可以使用在构造方法中, 通过当前的构造方法调用其他方法[this(实参)](只能出现在构造函数第一行)(通常可以用来设置默认值)
  */
 public class _07Date {
     private int year;
@@ -51,7 +51,7 @@ public class _07Date {
     public void setDay(int day) {
         this.day = day;
     }
-    //实例方法, 对外提供一个可以将实例发育输出到控制台
+    //实例方法, 对外提供一个可以将实例方法输出到控制台
     public void print() {
         System.out.println(this.year + "年" + this.month + "月" + this.day + "日");
     }

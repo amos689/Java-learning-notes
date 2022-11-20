@@ -1,5 +1,6 @@
 package _11This;
 
+//总结:
 public class _09SumUp {
     //带有static的方法
     public static void method1() {
