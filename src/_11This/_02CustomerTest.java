@@ -10,5 +10,6 @@ public class _02CustomerTest {
         _01Customer c2 = new _01Customer();
         c2.name = "LiSi";
         c2.shopping();
+        _01Customer.doSome();
     }
 }

@@ -37,6 +37,6 @@ public class _01Customer {
         //假如想访问name的话, 该怎么做
         //可以采用以下方案, 但是访问的绝对不是当前对象的name
         _01Customer c = new _01Customer();
-        System.out.println(c.name);
+        System.out.println(c.name); //这里只会输出null, 因为系统会新实例化一个_01Custumer对象, 这个对象中name没有被赋值
     }
 }
