@@ -24,8 +24,8 @@ package _18AbstractClass;
                          前面修饰符列表有abstract关键字
         9.抽象类中不一定有抽象方法, 但是抽象方法必须在抽象类中
         10.判断: Java中凡是没有方法体的方法都是抽象方法
-                错, Object类中很多方法也没有方法体, 都是以;结尾的, 但是他们都不是抽象方法
-                例如public native int hashCode(); 这个方法底层调用C++动态链接库
+        错, Object类中很多方法也没有方法体, 都是以;结尾的, 但是他们都不是抽象方法
+        例如public native int hashCode(); 这个方法底层调用C++动态链接库
 
  */
 public class _01AbstractTest {

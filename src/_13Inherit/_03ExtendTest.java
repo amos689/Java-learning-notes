@@ -5,7 +5,7 @@ package _13Inherit;
         1.继承是面向对象三大特征之一, 三大特征分别是: 封装 继承 多态
         2.继承的最基本作用是代码复用, 但是更重要的是有了继承才有方法的覆盖和多态
         3.继承的语法格式:
-            [修饰符列表] class 类名extends 父类名{
+            [修饰符列表] class 类名extends 父类名 {
                 类体 = 属性 + 方法
             }
         4.Java语言中的继承只支持单继承, 一个类不能同时继承很多类, 只能继承一个类
@@ -30,6 +30,7 @@ package _13Inherit;
           Java.lang.Object类. Java语言中任何一个类中都有Object类的特征
         9.IDEA查找类型[Open Type]快捷键: 双击shift. Eclipse中: ctrl + shift + t
         10.Eclipse查找资源[Open Resource]: ctrl + shift + r
+        11.子类在创建实例时。子类的类初始化方法会调用父类的初始化方法。即父类的构造函数会执行,但是不会创建父类对象
  */
 public class _03ExtendTest {
     public static void main(String[] args) {
@@ -40,6 +41,11 @@ public class _03ExtendTest {
         //返回_13inherit._03ExtendTest@77459877
         */
         _02CreditAccount act = new _02CreditAccount();
+        /*
+            子类拥对父类的私有变量具有拥有权 但是不具有使用权。
+            不管父类中的成员变量是私有的还是其他，子类统统拥有，
+            但是私有的不能被子类直接访问，只能通过从父类中继承的set和get方法来访问。
+         */
         act.setActnum("act-001");
         act.setBalance(-1000.0);
         act.setCredit(0.99);

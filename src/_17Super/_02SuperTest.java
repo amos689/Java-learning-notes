@@ -47,3 +47,9 @@ class E extends D{
         System.out.println("E的有参数构造方法" + name + a);//3
     }
 }
+/*
+流程:
+    class E中先通过this("zhangsan")进入String的构造方法, 然后调用this(name, 20)进入含有String和int的构造方法
+    此构造方法有super(name), 将进入父类D的有参数构造方法, D有参数构造方法中第一行没有this(), 默认有一个无参数的super()
+    然后进入C的无参数构造方法中, 然后根据栈数据结构的特性, 按顺序输出
+ */

@@ -90,7 +90,7 @@ public class _04Test {
         if(a3 instanceof _02Cat) {
             _02Cat c3 = (_02Cat)a3;
         }else {
-            System.out.println("类型转换异常");
+            System.out.println("类型转换异常"); //输出类型转换异常
         }
     }
 }

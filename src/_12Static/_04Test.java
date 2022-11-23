@@ -9,7 +9,7 @@ package _12Static;
  */
 public class _04Test {
     public _04Test() {
-        System.out.println("_04Test类的缺省构造器执行"); //发现执行在123后面
+        System.out.println("_04Test类的缺省构造器执行"); //发现先输出123后输出构造器执行
     }
     {
         System.out.println(1);
