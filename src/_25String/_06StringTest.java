@@ -22,7 +22,7 @@ public class _06StringTest {
         System.out.println("s2 = " + s2.toString()); //abc
 
         //2.public String​(byte[] bytes, int offset(起始位置), int length(长度))
-        String s3 = new String(bytes , 1, 2);
+        String s3 = new String(bytes, 1, 2);
         System.out.println("s3 = " + s3); //bc
 
         //3.public String​(char[] value)将char数组转成字符串

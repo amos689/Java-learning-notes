@@ -16,10 +16,14 @@ package _15Polymorphism;
 
 //提高程序的扩展力, 就要降低程序的耦合度[解耦合]
 public class _08Master {
+    public static void main(String[] args) {
+        _10Pet pet = new _09Dog();
+        feed(pet);
+    }
     //Muster面向的不应该是Cat/Dog, 应该是Pet
     //提倡面向抽象编程, 不要面向具体编程
     //面向抽象编程的好处是: 耦合度低, 扩展力强
-    public void feed(_10Pet pet) { //_10Pet pet是一个父类型的引用
+    public static void feed(_10Pet pet) { //_10Pet pet是一个父类型的引用
         pet.eat();
     }
 }

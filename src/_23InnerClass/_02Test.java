@@ -1,4 +1,4 @@
-package _23AnonymousInnerClass;
+package _23InnerClass;
 
 public class _02Test {
     public static void main(String[] args) {

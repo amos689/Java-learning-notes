@@ -1,4 +1,4 @@
-package _23AnonymousInnerClass;
+package _23InnerClass;
 
 /*
     匿名内部类:
@@ -19,7 +19,7 @@ public class _01Test {
 
     }
 
-    //没有static叫做静态内部类
+    //没有static叫做实例静态内部类
     class Inner2 {
 
     }

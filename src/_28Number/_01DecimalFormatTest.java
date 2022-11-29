@@ -19,7 +19,7 @@ public class _01DecimalFormatTest {
          */
         //表示加入千位分隔符, 保留两位小数
         DecimalFormat df = new DecimalFormat("###,###.##");
-        String s = df.format(1234.56);
+        String s = df.format(1234789321.56);
         System.out.println(s); //"1,234.56"
     }
 }

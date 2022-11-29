@@ -55,10 +55,10 @@ public class _07ArrayTest {
         int[] b = new int[4];
         System.arraycopy(a, 0, b, 0, a.length);
         b[3] = 8;
-        System.out.println(a[3] + " && " + b[3]);
+        System.out.println(a[3] + " && " + b[3]); //基本数据类型直接存值
         Object[] c = {new Object(), new Object(), new Object()};
         Object[] d = new Object[3];
         System.arraycopy(c, 0, d, 0, c.length);
-        System.out.println(c[2] + " && " + d[2]);
+        System.out.println(c[2] + " && " + d[2]); //引用类型直接存放存放相同地址
     }
 }

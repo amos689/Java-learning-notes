@@ -6,7 +6,7 @@ import java.io.IOException;
 
 /*
     关于Java中的finally字句:
-        1.在finally字句中的代码时最后执行的, 并且是一定会执行的, 即使try语句块中的代码出现了异常
+        1.在finally字句中的代码是最后执行的, 并且是一定会执行的, 即使try语句块中的代码出现了异常
           finally字句必须和try一起出现, 不能单独编写
         2.finally语句通常使用在哪些情况下呢
             通常在finally语句块中完成资源的释放/关闭

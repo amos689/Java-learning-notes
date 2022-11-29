@@ -79,7 +79,7 @@ class Stack{
 
     public void pop() throws MyStackOperationException {
         if(objs[0] == null) {
-            throw new MyStackOperationException("弹栈失败, 栈已空");
+            throw new MyStackOperationException("栈已空, 弹栈失败");
         }
         for(int i = objs.length - 1; i >= 0; i--) {
             if(objs[i] != null) {

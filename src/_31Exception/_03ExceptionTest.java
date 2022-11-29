@@ -4,8 +4,8 @@ package _31Exception;
     分析为什么报错
         因为doSome()方法声明位置上使用了: throws ClassNotFoundException
         而ClassNotFoundException是编译时异常, 必须编写代码时处理, 没有处理编译器报错
-
  */
+
 public class _03ExceptionTest {
     /*
         //第一种方式, 在方法声明的位置上继续使用throws, 来完成异常的继续上抛, 抛给调用者

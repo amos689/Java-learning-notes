@@ -138,10 +138,10 @@ public class _07StringTest {
 
             public String[] split(String regex, int limit)只有当limit是0时才会舍去后面的空字符串
             * The limit parameter controls the number of times the pattern is applied and therefore affects the length of the resulting array.
-                * If the limit is positive then the pattern will be applied at most limit - 1 times,
-                  the array's length will be no greater than limit, and the array's last entry will contain all input beyond the last matched delimiter.
-                * If the limit is zero then the pattern will be applied as many times as possible, the array can have any length, and trailing empty strings will be discarded.
-                * If the limit is negative then the pattern will be applied as many times as possible and the array can have any length.
+            * If the limit is positive then the pattern will be applied at most limit - 1 times,
+              the array's length will be no greater than limit, and the array's last entry will contain all input beyond the last matched delimiter.
+            * If the limit is zero then the pattern will be applied as many times as possible, the array can have any length, and trailing empty strings will be discarded.
+            * If the limit is negative then the pattern will be applied as many times as possible and the array can have any length.
          */
         String[] str1 = "boo:and:foo".split(":");
         String[] str2 = "boo:and:foo".split("o");

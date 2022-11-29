@@ -24,6 +24,9 @@ interface MyMath2{
     double PI = 3.14;
     int sum(int a, int b);
     int sub(int a, int b);
+    private double acc() {
+        return 7.0;
+    }
 }
 
 //编写一个类(非抽象的), 去实现接口MyMath2

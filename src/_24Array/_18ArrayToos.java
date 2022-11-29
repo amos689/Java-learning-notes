@@ -17,7 +17,8 @@ public class _18ArrayToos {
         int[] arr = {3, 6, 5, 12, 1, 2, 32, 5, 5};
 
         //排序
-        Arrays.sort(arr);
+        Arrays.sort(arr); //升序
+        //降序: Arrays.sort(arr, Collections.reverseOrder());
         //输出
         for(int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
