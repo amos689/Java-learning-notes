@@ -9,8 +9,9 @@ import java.util.Collection;
     - contains方法是用来判断集合中是否包含某个元素的方法
       调用了equals方法进行比对, 返回true包含, false不包含
       所以, 当自定义类时, 如果重写了equals方法, 那就会比较你指定的内容是否相等
+    - 重写类的equals方法是个好习惯
  */
-public class _03Collection {
+public class _03CollectionTest {
     public static void main(String[] args) {
         // 创建集合对象
         Collection c = new ArrayList();

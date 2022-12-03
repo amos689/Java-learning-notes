@@ -6,6 +6,10 @@ import java.util.Iterator;
 
 /*
     关于集合遍历/迭代专题
+        注意:
+        什么时候获取的迭代器, 该迭代器就是只在当前状态下集合的状态, 不会再动态改变, 相当于对当前集合的状态拍了一个快照
+        集合结构一旦发生改变, 迭代器必须重新获取
+        否则在调用next()时出现: java.util.ConcurrentModificationException异常
  */
 public class _02CollectionTest {
     public static void main(String[] args) {
