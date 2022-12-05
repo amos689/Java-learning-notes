@@ -1,3 +1,5 @@
+package _08ObjectOrientedPrograming;
+
 //与08OO03,04搭配使用
 //家庭住址类
 public class _08OO02 {

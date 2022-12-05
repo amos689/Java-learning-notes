@@ -1,3 +1,5 @@
+package _03ProcessControl;
+
 public class _03ProcessControl {
     public static void main(String[] args) {
         //接收用户键盘输入

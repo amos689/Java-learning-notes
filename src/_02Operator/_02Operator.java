@@ -1,3 +1,5 @@
+package _02Operator;
+
 public class _02Operator {
     public static void main(String[] args) {
         System.out.println(2 << 2);

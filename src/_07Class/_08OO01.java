@@ -1,3 +1,7 @@
+package _07Class;
+
+import _07Class._07StudentClass;
+
 /*
     对象的创建和使用
  */
@@ -11,7 +15,7 @@ public class _08OO01 { //OO:ObjectOriented
             栈内存：方法代码片段执行的时候，会给该方法分配内存空间，在栈内存中压栈
             堆内存：new的对象在堆内存中存储
          */
-        //new _07StudentClass()是一个学生对象，s是一个变量名，也是个局部变量【栈中存储】
+        //new _07Class._07StudentClass()是一个学生对象，s是一个变量名，也是个局部变量【栈中存储】
         _07StudentClass s = new _07StudentClass();
         /*
             new运算符创建的，在堆内存里开辟的空间叫做对象
@@ -43,7 +47,7 @@ public class _08OO01 { //OO:ObjectOriented
         System.out.println("性别 = " + s.sex);
         System.out.println("住址 = " + s.addr);
         /*
-            不能通过System.out.println(_07StudentClass.num)来访问学号
+            不能通过System.out.println(_07Class._07StudentClass.num)来访问学号
             必须通过创建的对象才能访问实例变量，不能直接通过“类名”访问
          */
     }

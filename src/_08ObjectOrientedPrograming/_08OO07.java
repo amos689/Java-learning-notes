@@ -1,3 +1,8 @@
+package _08ObjectOrientedPrograming;
+
+import _08ObjectOrientedPrograming._08OO05Husband;
+import _08ObjectOrientedPrograming._08OO06Wife;
+
 public class _08OO07 {
     public static void main(String[] args) {
         //创建一个丈夫对象

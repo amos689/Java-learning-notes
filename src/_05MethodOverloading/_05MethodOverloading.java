@@ -1,3 +1,5 @@
+package _05MethodOverloading;
+
 /*
     代码不使用方法重载机制，存在的缺点
         1.sumInt,sumDouble,sumLong方法虽然名称不同，但是功能是相似的，都是求和

@@ -1,3 +1,7 @@
+package _08ObjectOrientedPrograming;
+
+import _08ObjectOrientedPrograming._08OO02;
+
 //与_08OO02,04搭配使用
 //用户类
 public class _08OO03 {

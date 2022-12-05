@@ -1,3 +1,8 @@
+package _08ObjectOrientedPrograming;
+
+import _08ObjectOrientedPrograming._08OO02;
+import _08ObjectOrientedPrograming._08OO03;
+
 public class _08OO04 {
     public static void main(String[] args) {
         //创建_08OO03对象
@@ -16,7 +21,7 @@ public class _08OO04 {
         u.addr = new _08OO02(); //new创建一个_08OO02堆内存
         /*
             也可以这样写
-            _08OO02 a = new _08OO02();
+            _08ObjectOrientedPrograming._08OO02 a = new _08ObjectOrientedPrograming._08OO02();
             u.addr = a;
          */
 

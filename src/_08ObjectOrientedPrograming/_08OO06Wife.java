@@ -1,3 +1,7 @@
+package _08ObjectOrientedPrograming;
+
+import _08ObjectOrientedPrograming._08OO05Husband;
+
 //妻子类
 public class _08OO06Wife {
     //名字

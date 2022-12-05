@@ -1,3 +1,5 @@
+package _04Method;
+
 /*
     以下程序(计算两个int数据的和)不使用方法，会产生什么缺点
         繁琐，没有重复利用的价值
@@ -9,7 +11,7 @@
             使用的过程称为调用：invoke
 */
 /*
-public class _04Method01 {
+public class _04Method._04Method01 {
     public static void main(String[] args) {
         // 需求1：编写程序计算10和20的和
         int a = 10;

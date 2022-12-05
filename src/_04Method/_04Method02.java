@@ -1,3 +1,7 @@
+package _04Method;
+
+import _04Method._04Method01;
+
 /*
     方法的语法结构
     [修饰符列表] 返回值类型 方法名 (形式参数列表) {

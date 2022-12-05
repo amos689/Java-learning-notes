@@ -1,3 +1,5 @@
+package _01Logic;
+
 public class _01Logic {
     /*
     & 逻辑与 （两边都真是真）

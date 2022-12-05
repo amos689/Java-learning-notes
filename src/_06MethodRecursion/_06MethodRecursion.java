@@ -1,3 +1,5 @@
+package _06MethodRecursion;
+
 /*
     关于方法的递归调用
         1.什么是递归：方法自身调用自身

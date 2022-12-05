@@ -1,3 +1,5 @@
+package _08ObjectOrientedPrograming;
+
 //丈夫类
 public class _08OO05Husband {
     //名字
