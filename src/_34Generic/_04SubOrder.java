@@ -1,4 +1,4 @@
-package _33Generic;
+package _34Generic;
 
 // _04SubOrder不是一个泛型类
 public class _04SubOrder extends _02Order<Integer> {

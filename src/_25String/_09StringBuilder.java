@@ -17,6 +17,7 @@ public class _09StringBuilder {
         StringBuilder sb = new StringBuilder();
         //StringBuilder和StringBuffer的用法几乎一样
         sb.append("abc");
+        sb.append((int)3 / 2.0);
         System.out.println(sb);
     }
 }

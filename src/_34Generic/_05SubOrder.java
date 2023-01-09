@@ -1,4 +1,4 @@
-package _33Generic;
+package _34Generic;
 
 // _05SubOrder依然是一个泛型类
 public class _05SubOrder<T> extends _02Order<T> { // 仿效ArrayList对于AbstractList
